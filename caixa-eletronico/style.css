@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter&display=swap');
+
+body {
+	padding: 0.4rem 16rem;
+	background-color: #d8ebc8;
+	text-align: center;
+	color: #777975;
+	font-family: 'Inter', sans-serif;
+}
+
+div.header {
+	display: flex;
+	height: 8rem;
+}
+
+img#logo {
+	width: 16rem;
+	position: absolute;
+	left: 16rem;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	color: #4b7940;
+}
+
+div#notas {
+	background-color: #cbddbb;
+	border-radius: 8px;
+	padding: 0.4rem 0.2rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: flexbox;
+	flex-wrap: wrap;
+	width: 28rem;
+}
+
+img.nota {
+	width: 8rem;
+	height: 4rem;
+	padding: 0.2rem;
+}
